@@ -4,24 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Tic-Tac-Toe</title>
+    <title>Stopwatch</title>
 </head>
 <body>
-    <div class="game">
-        <h1>Tic-Tac-Toe</h1>
-        <div id="board" class="board">
-            <div class="cell" data-index="0"></div>
-            <div class="cell" data-index="1"></div>
-            <div class="cell" data-index="2"></div>
-            <div class="cell" data-index="3"></div>
-            <div class="cell" data-index="4"></div>
-            <div class="cell" data-index="5"></div>
-            <div class="cell" data-index="6"></div>
-            <div class="cell" data-index="7"></div>
-            <div class="cell" data-index="8"></div>
+    <div class="stopwatch">
+        <h1>Stopwatch</h1>
+        <div id="display">00:00:00</div>
+        <div class="controls">
+            <button id="start">Start</button>
+            <button id="pause">Pause</button>
+            <button id="reset">Reset</button>
+            <button id="lap">Lap</button>
         </div>
-        <button id="reset">Reset</button>
-        <div id="message"></div>
+        <ul id="laps"></ul>
     </div>
 
     <script src="script.js"></script>
